@@ -9,7 +9,8 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   devServer: {
-    port: 9000
+    port: 9000,
+    hot: true // 바로바로 스타일시트가 반영
   },
   plugins: [
     new HtmlWebpackPlugin({
