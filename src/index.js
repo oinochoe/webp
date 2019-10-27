@@ -1,6 +1,7 @@
 // index.js
 import _ from "lodash";
 import "../scss/style.scss";
+import "../scss/base.scss";
 
 function component() {
   const dragon = document.createElement("div");
