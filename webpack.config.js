@@ -8,6 +8,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist")
   },
+  devtool: "cheap-eval-source-map",
   devServer: {
     port: 9000,
     hot: true // 바로바로 스타일시트가 반영
